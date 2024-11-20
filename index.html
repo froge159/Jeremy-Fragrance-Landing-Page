@@ -11,44 +11,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
-
   <body>
-  
-  
-	<header id="header-container">
+    <header id="header-container">
+      <nav id="navbar">
+        <a href="#header-container"
+          ><img src="/assets/jeremylogo.png" alt="logo"
+        /></a>
+        <a href="#about-container">WHO WE ARE</a>
+        <a href="#products-container">PRODUCTS</a>
+        <a href="#reasons-container">WHY US</a>
+      </nav>
 
-		<nav id="navbar">
-			<a href=#header-container><img src="/assets/jeremylogo.png" alt="logo"></a>
-			<a href="#about-container">WHO WE ARE</a>
-			<a href="#products-container">PRODUCTS</a>
-			<a href="#reason-container">WHY US</a>
-		</nav>
+      <div id="header-video-container">
+        <div id="header-text-container">
+          <img src="/assets/title-image.png" alt="title image" />
+          <h1>FRAGRANCE.ONE</h1>
+          <h2>BY DANIEL SCHÜTZ</h2>
+        </div>
 
-    <div id="header-video-container">
-      <div id="header-text-container">
-        <img src="/assets/title-image.png" alt="title image">
-        <h1>FRAGRANCE.ONE</h1>
-        <h2>BY DANIEL SCHÜTZ</h2>
+        <div id="header-input-container">
+          <form
+            action="https://www.freecodecamp.com/email-submit"
+            id="header-input"
+            method="post"
+          >
+            <input type="email" value="ENTER EMAIL" id="email-input" />
+            <input type="submit" value="SUBSCRIBE" />
+          </form>
+        </div>
+
+        <!--add video-->
       </div>
-  
-      <div id="header-input-container">
-        <form action="https://www.freecodecamp.com/email-submit" id="header-input" method="post">
-          <input type="email" value="ENTER EMAIL" id="email-input">
-          <input type="submit" value="SUBSCRIBE">
-        </form>
+    </header>
+
+    <div id="about-container">
+      <div id="about-image-container">
+        <img src="/assets/about-us-main.jpg" alt="about us main" />
+        <img src="/assets/star.png" alt="star" />
       </div>
 
-      <!--add video-->
+      <div id="about-text-container">
+        <h1>WHO WE ARE</h1>
+        <p>
+          One fragrance for each occasion. Created by Jeremy Fragrance. Crafted
+          by Alberto Morillas. Launched by thousands of people on Kickstarter.
+        </p>
+      </div>
     </div>
-	</header>
 
+    <div id="products-container">
+      <h1>PRODUCTS</h1>
+      <div id="products-description-container">
+        <div class="product-description">
+          <img src="/assets/office.jpg" alt="office for men">
+          <h3>OFFICE</h3>
+          <p>This powerful fragrance  blends smoke, leather, and sexiness.</p>
+          <button>LEARN MORE</button>
+        </div>
+        <div class="product-description">
+          <img src="/assets/date.jpg" alt="date for men">
+          <h3>DATE</h3>
+          <p>A powerful, energetic blend of fruits and Oriental Sexual Masculinity.</p>
+          <button>LEARN MORE</button>
+        </div>
+        <div class="product-description">
+          <img src="/assets/black-tie.jpg" alt="black tie for men">
+          <h3>BLACK TIE</h3>
+          <p>The ultimate fragrance for go-getters. Flagship eau de parfum from Fragrance One. </p>
+          <button>LEARN MORE</button>
+        </div>
+      </div>
+    </div>
 
-
-  <div id="about-container">
-    
-  </div>
-
-	
-
+    <div id="reasons-container">
+      <div id="reasons-text-container">
+        <img src="/assets/star.png" alt="star">
+        <h2>WHY</h2>
+        <h3>FRAGRANCE.ONE</h3>
+      </div>
+      <div id="reasons-description-container">
+        <div class="reason-description">
+          <i class="fa fa-solid fa-leaf"></i>
+          <div class="reason-description-text">
+            <h3>Premium Ingredients</h3>
+            <p>Our fragrances are only crafted from the finest ingredients sourced from around the world. </p>
+          </div>
+        </div>
+        <div class="reason-description">
+          <i class="fa fa-solid fa-truck"></i>
+          <div class="reason-description-text">
+            <h3>Fast Shipping</h3>
+            <p>We have international shipping that is both fast and efficient. Always guaranteed to arrive in 2-3 business days.</p>
+          </div>
+        </div>
+        <div class="reason-description">
+          <i class="fa fa-solid fa-bottle-droplet"></i>
+          <div class="reason-description-text">
+            <h3>Master Perfumer</h3>
+            <p>Perfumed by Albert Morillas,  a renowned Spanish perfumer who has created some of the world's most iconic fragrances.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
