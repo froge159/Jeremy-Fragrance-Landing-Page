@@ -13,34 +13,43 @@
 
   <body>
     <header id="header-container">
-      <nav id="navbar">
+      <nav id="navbar" class="white-background">
         <a href="#header-container"
-          ><img src="/assets/jeremylogo.png" alt="logo"
+          ><img src="/assets/jeremylogo.png" alt="logo" id="logo"
         /></a>
-        <a href="#about-container">WHO WE ARE</a>
-        <a href="#products-container">PRODUCTS</a>
-        <a href="#reasons-container">WHY US</a>
+        <div id="right-nav-container">
+          <a href="#about-container">WHO WE ARE</a>
+          <a href="#products-container">PRODUCTS</a>
+          <a href="#reasons-container">WHY US</a>
+        </div>
       </nav>
 
       <div id="header-video-container">
-        <div id="header-text-container">
-          <img src="/assets/title-image.png" alt="title image" />
-          <h1>FRAGRANCE.ONE</h1>
-          <h2>BY DANIEL SCHÜTZ</h2>
-        </div>
+        <video autoplay muted loop id="video">
+          <source src="/assets/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
 
-        <div id="header-input-container">
-          <form
-            action="https://www.freecodecamp.com/email-submit"
-            id="header-input"
-            method="post"
-          >
-            <input type="email" value="ENTER EMAIL" id="email-input" />
-            <input type="submit" value="SUBSCRIBE" />
-          </form>
+        <div id="text-overlay">
+          <div id="header-text-container">
+            <img src="/assets/title-image.png" alt="title image" id="header-deco" />
+            <h1 id="header-title">FRAGRANCE.ONE</h1>
+            <h2 id="header-subtitle">BY DANIEL SCHÜTZ</h2>
+          </div>
+  
+          <div id="header-input-container">
+            <form
+              action="https://www.freecodecamp.com/email-submit"
+              id="header-input"e
+              method="post"
+            >
+              <input type="email" placeholder="ENTER EMAIL" id="email-input" /><br>
+              <input type="submit" value="SUBSCRIBE" id="submit-input" />
+            </form>
+          </div>
         </div>
+        
 
-        <!--add video-->
       </div>
     </header>
 
@@ -59,7 +68,7 @@
       </div>
     </div>
 
-    <div id="products-container">
+    <div id="products-container" class="white-background">
       <h1>PRODUCTS</h1>
       <div id="products-description-container">
         <div class="product-description">
