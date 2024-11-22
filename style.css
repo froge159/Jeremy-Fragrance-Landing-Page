@@ -42,9 +42,11 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    z-index: 1000;
 }
 
 #right-nav-container {
+    margin-right: -50px;
     width: 48vw;
     display: flex;
     justify-content: space-evenly;
@@ -139,7 +141,40 @@ a {
     color: #f0ebe1;
 }
 
+#products-container {
+    margin-top: -5px;
+}
 
+#products-heading {
+    text-align: center;
+    margin: 0;
+    font-family: "Tenor Sans", "sans-serif";
+    font-weight: lighter;
+    padding-top: 120px;
+    font-size: 4.5vw;
+}
+
+.desc-image {
+    max-width: 275px;
+    height: auto;
+}
+
+.product-description {
+    text-align: center;
+    flex: 1;
+}
+
+.product-description p {
+    width: 300px; 
+    margin: auto;
+}
+
+#products-description-container {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 80px;
+}
 
 
 @media (max-width: 900px) {
