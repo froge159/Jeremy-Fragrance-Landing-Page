@@ -2,22 +2,22 @@
 /*use flexbox at least once */
 @font-face {
     font-family: 'Alta';
-    src: url('/assets/fonts/alta-regular.otf') format('opentype');
+    src: url('assets/fonts/alta-regular.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Biryani UltraLight';
-    src: url('/assets/fonts/Biryani-UltraLight.ttf') format('truetype');
+    src: url('assets/fonts/Biryani-UltraLight.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/assets/fonts/OpenSans-Regular.ttf') format('truetype');
+    src: url('assets/fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Tenor Sans';
-    src: url('/assets/fonts/TenorSans-Regular.ttf') format('truetype');
+    src: url('assets/fonts/TenorSans-Regular.ttf') format('truetype');
 }
 
 html {
