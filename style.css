@@ -145,6 +145,7 @@ a {
 #products-container {
   margin-top: -5px;
   height: auto;
+  
 }
 
 #products-heading {
@@ -204,7 +205,11 @@ a {
 #reasons-container {
   color: white;
   margin-top: 200px;
-  height: 800px;
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  align-items: center;
 }
 .black-background {
   background-color: #050d18;
@@ -216,7 +221,58 @@ a {
 }
 
 #reasons-text-container {
-  
+  font-family: "Tenor Sans", "san-serif";
+  position: relative;
+  height: auto;
+  top: -10vh;
+  left: 30px;
+}
+
+#why {
+  font-size: 75px;
+  margin: 0;
+}
+
+#fragranceone {
+  font-size: 50px;
+  margin: 0;
+}
+
+#star-image {
+  position: relative;
+}
+
+#reasons-description-container {
+  width: 550px;
+  position: relative;
+  top: -5vh;
+  left: 75px;
+}
+
+.reason-description {
+  display: flex;
+}
+
+.reason-description-text {
+  width: 450px;
+}
+
+.fa {
+  margin-top: 90px;
+  margin-right: 35px;
+}
+#reasons-description-container h3 {
+  font-family: "Tenor Sans", "sans-serif";
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 0;
+  margin-top: 70px;
+}
+
+#reasons-description-container p {
+  font-family: "Biryani UltraLight", "sans-serif";
+  margin: 0;
+  margin-top: 10px;
 }
 
 @media (max-width: 900px) {
@@ -229,6 +285,16 @@ a {
   }
   .product-description {
     margin-top: 30px;
+  }
+  #reasons-container {
+    flex-direction: column;
+    height: auto;
+  }
+  #star-image {
+    display: none;
+  }
+  #reasons-text-container {
+    margin-top: 200px;
   }
 }
 
